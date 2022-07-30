@@ -1,0 +1,169 @@
+.search-container{
+    background-color: #F6F8FA;
+    width: 1300px;
+    height: 170px;
+    position: absolute;  
+    top:50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px #c8c8c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.search-item{
+  margin-left: 20px;
+  margin-top: 60px;
+  
+}
+.icon{
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.place{
+    background-color: white;
+    border: 1px solid #696969;
+    height: 50px;
+    float: left;
+
+    border-radius: 20px 0px 0px 20px;
+    width: 500px;
+}
+.where{
+    padding-top: 13px;
+    
+}
+.search-input{
+    margin-right: 10px;
+    width: 400px;
+    border: none;
+    font-size: 16px;
+    outline:none;
+
+}
+.date{
+    width: 400px;
+    position:absolute;
+    z-index:1;
+}
+
+.date-container{
+    background-color: white;
+    border: 1px solid #696969;
+    height: 50px;
+    float: left;
+    width: 400px;
+    cursor: pointer;
+}
+
+.icon-cal{
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+.headerSearchText{
+        margin-top: 15px;
+        margin-bottom: 12px;
+        padding-left: 60px;
+}
+
+.people-container{
+    background-color: white;
+    border: 1px solid #696969;
+    border-radius: 0px 20px 20px 0px;
+    height: 50px;
+    float: left;
+    width: 330px;
+
+    cursor: pointer;
+}
+
+.icon-people{
+    margin-left: 10px;
+    float: left;
+
+}
+
+.search{
+    background: #1571DB;
+    border: none;
+    width: 180px;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    font-size: 20px;
+    cursor:pointer;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+
+.people-incdec{
+    display: flex;
+    padding: 20px;
+    background: white;
+  
+    
+
+}
+.person-name{
+    font-size: 18px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.person-count{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.btn-count{
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+    background: white;
+    border: 1px solid #1571DB;
+}
+
+#person-name-children{
+    font-size: 18px;
+    margin-right: 82px;
+    margin-left: 10px;
+}
+
+#person-name-room{
+    font-size: 18px;
+    margin-right: 96px;
+    margin-left: 10px;
+}
+
+#person-count-child{
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.hr-style{
+    height: 1px;
+    color: #333; /* old IE */
+    background-color: rgb(206, 206, 206);
+    border: none;}
+
+.count-people{
+    border-left: 1px solid #1571db53;
+    border-right: 1px solid #1571db53;
+    border-bottom: 1px solid #1571db53;
+    position:absolute;
+    z-index:2;
+}
+
+.btn-count:disabled{
+    cursor: none;
+}

@@ -1,0 +1,76 @@
+
+.header_container{
+    background: #1571DB;
+    width: 100%; 
+    display: flex;
+    position: relative;
+
+}
+
+.logo{
+    color: white;
+    font-size: xx-large;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #9a9a9a;
+}
+.header_link{
+    display: flex;
+    margin-top: 3px;
+    position: absolute;
+    left:200px;
+    padding: 30px;
+
+}
+
+.link{
+    color: white;
+    margin-right: 30px;
+    display: flex;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.lins{
+    display: flex;
+    margin-right:10px ;
+}
+
+.account_btn{
+    background-color:white ;
+    color: #1571DB;
+    border: none;
+    margin-right: 15px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 2px 2px #0e4d9671;
+    cursor: pointer;
+}
+
+.account{
+    margin: 30px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 965px) {
+    .header_link{
+        margin-top: 50px;
+        left:100px;
+        padding: 30px;
+
+        
+    }
+
+    .header_container{
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+   body{
+    color: red;
+   }
+}

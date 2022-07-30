@@ -1,0 +1,54 @@
+.top-dest{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.top-city-img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    
+
+}
+.photo-container{
+    margin-right: 45px;
+    margin-left: 45px;
+    text-align: center;
+    cursor: pointer;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+
+}
+
+
+.top-container{
+    flex: 0 0 100%;
+    margin-left:70px;
+}
+.top-city-name{
+    font-size: 21px;
+    margin-top: 10px;
+    cursor: pointer;
+  
+
+}
+
+.cities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px ;
+ 
+}
+.photo-container:hover{
+    transform: scale(1.1);
+}
