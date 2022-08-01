@@ -1,0 +1,162 @@
+.flight-search{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flight-search-container{
+    margin-top: 20px;
+    background: #F6F8FA;
+    width: 85vw;
+    height: 200px;
+        box-shadow: 2px 2px #f6f8fa39;
+
+}
+
+.div{
+  display: flex;  
+}
+
+.incdec{
+    display: flex;
+    padding: 10px;
+    background: white;
+}
+
+.person-name-flights{
+    font-size: 14px;
+    margin-right: 28px;
+    margin-left: 0px;
+}
+#person-name-children-flights{
+    font-size: 14px;
+    margin-right: 12px;
+    margin-left: 0px;
+}
+
+#person-name-room-flights{
+    font-size: 14px;
+    margin-right: 24px;
+    margin-left: 0px;
+}
+
+#person-count-child-flights{
+    font-size: 14px;
+    margin-right: 26px;
+    margin-left: 20px;
+}
+.cal-logo{
+     margin-top: 10px;
+     margin-right: -50px;
+     margin-left: 35px;
+     position: relative;
+     z-index: 1;
+     color: white;
+     font-size: 22px;
+}
+.btn-type{
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 130px;
+    height: 30px;
+    background: #1571DB;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#not-selected {
+    background: #DDDDDD;
+    border-radius: 15px;
+    color: #606060;
+}
+
+.search-info{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.people-counter{
+    border-left: 1px solid #1571db53;
+    border-right: 1px solid #1571db53;
+    border-bottom: 1px solid #1571db53;
+    position:absolute;
+    z-index:2;
+    margin-top: 10px;
+    margin-left: -15px;
+    padding-right: 14px;
+}
+.airport-name-to{
+    background: #DDDDDD;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+}
+
+.date-picker{
+    width: 220px;
+    border: none;
+    background: #DDDDDD;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+    
+
+}
+
+
+.person{
+        background: #DDDDDD;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        margin: 10px;
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+}
+
+.air-logo{
+    color: white;
+    margin-right: -80px;
+    font-size: 24px;
+    z-index: 1;
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 18px;
+    transform: rotate(-45deg);
+    
+}
+
+.swap-logo{
+margin-right: 7px;
+margin-left: 3px;
+cursor: pointer;
+}
+
+.search-btn{
+    width: 300px;
+    border: none;
+    height: 40px;
+    margin-top:40px;
+    color: white;
+    background-color: #1571DB;
+    font-size: 17px;
+    border-radius: 20px;
+    cursor: pointer;
+}
