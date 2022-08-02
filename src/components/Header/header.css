@@ -53,7 +53,17 @@
     display: flex;
     justify-content: flex-end;
 }
+.account_btn:hover{
+    background-color: #f0f7ff ;
+}
+.links{
+    color: white;
+}
+.links:hover{
 
+        color: #acacac;
+    
+}
 
 @media screen and (max-width: 965px) {
     .header_link{

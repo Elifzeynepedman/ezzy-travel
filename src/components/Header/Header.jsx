@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import {FaBed,FaPlane,FaTaxi} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='header_container'>
@@ -9,21 +10,21 @@ const Header = () => {
           <div className="header_links">
           <div className="lins" >
              <FaBed style={{color:"white",marginTop:"4px"}}/>
-             <p className='link'>Stays</p>
+             <p className='link'><Link to="/" className='links'>Stays</Link></p>
              </div>
 
           </div>
           <div className="header_links">
           <div className="lins" >
              <FaPlane style={{color:"white",marginTop:"4px"}} />
-             <p className='link'>Flights</p>
+             <p className='link'><Link to="/flights" className='links'>Flights</Link></p>
              </div>
 
           </div>
           <div className="header_links">
             <div className="lins" >
              <FaTaxi style={{color:"white",marginTop:"4px"}}/>
-             <p className='link'>Airport Taxis</p>
+             <p className='link'><Link to="/taxis" className='links'>Airport Taxis</Link></p>
              </div>
           </div>
         </div>
